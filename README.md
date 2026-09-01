@@ -18,5 +18,5 @@ roslaunch wheelchair_virtual_joystick_driver norma.launch
 ```
 
 ### Access web interface
-Connect to NoRMA-Wheelchair Hotspot
-Open browser at `http://10.42.0.1:8000`
+- Connect to NoRMA-Wheelchair Hotspot
+- Open browser at `http://10.42.0.1:8000`
