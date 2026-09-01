@@ -1,0 +1,12 @@
+version: '3'
+services:
+  norma_ros:
+    build: .
+    container_name: norma_ros
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    volumes:
+      - /dev:/dev
+      - /sys:/sys
+      - ~/norma_ws:/root/norma_ws
